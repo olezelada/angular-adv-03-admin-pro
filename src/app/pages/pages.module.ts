@@ -1,5 +1,6 @@
 import {NgModule} from '@angular/core';
 import {RouterModule} from '@angular/router';
+import {ComponentsModule} from "../components/components.module";
 
 import {CommonModule} from '@angular/common';
 import {DashboardComponent} from "./dashboard/dashboard.component";
@@ -19,7 +20,8 @@ import {SharedModule} from "../shared/shared.module";
   imports: [
     CommonModule,
     SharedModule,
-    RouterModule
+    RouterModule,
+    ComponentsModule
   ],
   exports: [
     DashboardComponent,
