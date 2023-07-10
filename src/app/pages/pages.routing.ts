@@ -4,6 +4,7 @@ import {PagesComponent} from "./pages.component";
 import {DashboardComponent} from "./dashboard/dashboard.component";
 import {ProgressComponent} from "./progress/progress.component";
 import {GraphicOneComponent} from "./graphic-one/graphic-one.component";
+import {SettingComponent} from "./account-setting/setting.component";
 
 const routes: Routes = [
   {
@@ -12,7 +13,8 @@ const routes: Routes = [
     children: [
       {path: '', component: DashboardComponent},
       {path: 'progress', component: ProgressComponent},
-      {path: 'graphic-one', component: GraphicOneComponent}
+      {path: 'graphic-one', component: GraphicOneComponent},
+      {path: 'account-setting', component: SettingComponent}
     ]
   }
 ];

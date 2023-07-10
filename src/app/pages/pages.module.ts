@@ -8,6 +8,7 @@ import {ProgressComponent} from "./progress/progress.component";
 import {GraphicOneComponent} from "./graphic-one/graphic-one.component";
 import {PagesComponent} from "./pages.component";
 import {SharedModule} from "../shared/shared.module";
+import { SettingComponent } from './account-setting/setting.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import {SharedModule} from "../shared/shared.module";
     DashboardComponent,
     ProgressComponent,
     GraphicOneComponent,
-    PagesComponent
+    PagesComponent,
+    SettingComponent
   ],
   imports: [
     CommonModule,
@@ -27,7 +29,8 @@ import {SharedModule} from "../shared/shared.module";
     DashboardComponent,
     ProgressComponent,
     GraphicOneComponent,
-    PagesComponent
+    PagesComponent,
+    SettingComponent
   ]
 })
 export class PagesModule {
