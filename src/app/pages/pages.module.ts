@@ -9,6 +9,8 @@ import {GraphicOneComponent} from "./graphic-one/graphic-one.component";
 import {PagesComponent} from "./pages.component";
 import {SharedModule} from "../shared/shared.module";
 import { SettingComponent } from './account-setting/setting.component';
+import { PromesaComponent } from './promesa/promesa.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { SettingComponent } from './account-setting/setting.component';
     ProgressComponent,
     GraphicOneComponent,
     PagesComponent,
-    SettingComponent
+    SettingComponent,
+    PromesaComponent,
+    RxjsComponent
   ],
   imports: [
     CommonModule,
